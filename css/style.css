@@ -1,0 +1,111 @@
+@-webkit-keyframes flowers {
+
+	0% {margin-bottom: 10px;
+		 }
+
+
+	50% {margin-bottom: 40px}
+
+	100% {margin-bottom: 10px}
+
+}
+
+@-webkit-keyframes flowerss {
+
+	0% {margin-top: 10px;
+		 }
+
+
+	50% {margin-top: 40px}
+
+	100% {margin-top: 10px}
+
+}
+
+
+@-webkit-keyframes title {
+
+	0% {opacity: 0%;}
+
+
+	100% {opacity: 100%;}
+
+}
+
+@-webkit-keyframes tyler {
+
+	0% {opacity: 0%;}
+
+
+	100% {opacity: 100%;}
+
+}
+
+
+
+
+.box {width: 100%;
+      height: 100%;
+      background-color: #ffd28c;
+
+      position: fixed;}
+
+.box1 {width: 200px; height: 45.3px;
+        background-color: yellow;
+        position: absolute;
+        left: 50%;
+transform: translateX(-50%);
+top: 65%; 
+animation-delay: 3s;
+animation-name: tyler;
+animation-duration : 4s;
+animation-fill-mode:both;
+animation-iteration-count: 1;
+position: absolute;}
+
+
+.make {width: 600px;
+       height: 200px;
+       background-color: #ffd28c;
+left: 50%;
+transform: translateX(-50%);
+top: 40%; 
+
+
+animation-delay: 2s;
+animation-name: title;
+animation-duration : 5s;
+animation-fill-mode:both;
+animation-iteration-count: 1;
+position: absolute;}
+
+
+
+
+
+
+.flower {width: 300px; height: 300px; background-color: #ffd28c;
+          bottom: 0px; left: 10px; float: left; display: inline-block;
+
+         position: absolute;
+
+         animation-name: flowers;
+         animation-duration: 3s;
+         animation-timing-function: ease-in-out;
+         animation-iteration-count: infinite;}
+
+
+.flower1 {width: 300px; height: 300px; background-color: #ffd28c;
+         right: 10px; float: right; 
+
+         position: absolute;
+
+         animation-name: flowerss;
+         animation-duration: 3s;
+         animation-timing-function: ease-in-out;
+         animation-iteration-count: infinite;}
+
+
+
+
+
