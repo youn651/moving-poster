@@ -41,6 +41,16 @@
 
 }
 
+@-webkit-keyframes pix {
+
+	0% {opacity: 0%;}
+
+
+	100% {opacity: 100%;}
+
+}
+
+
 
 
 
@@ -56,9 +66,9 @@
         left: 50%;
 transform: translateX(-50%);
 top: 65%; 
-animation-delay: 3s;
+animation-delay: 4.3s;
 animation-name: tyler;
-animation-duration : 4s;
+animation-duration : 2s;
 animation-fill-mode:both;
 animation-iteration-count: 1;
 position: absolute;}
@@ -72,11 +82,62 @@ transform: translateX(-50%);
 top: 40%; 
 
 
-animation-delay: 2s;
+animation-delay: 4s;
 animation-name: title;
-animation-duration : 5s;
+animation-duration : 2s;
 animation-fill-mode:both;
 animation-iteration-count: 1;
+position: absolute;}
+
+
+
+.pix {width: 500px;
+       height: 659px;
+       background-color: #ffd28c;
+left: 50%;
+transform: translateX(-50%);
+top: 14%; 
+
+animation-delay: 1s;
+animation-name: pix;
+animation-duration : 0.1s;
+animation-fill-mode:both;
+animation-iteration-count: 1;
+
+position: absolute;}
+
+
+.pix1 {width: 500px;
+       height: 659px;
+       background-color: #ffd28c;
+left: 50%;
+transform: translateX(-50%);
+top: 14%; 
+
+animation-delay: 2s;
+animation-name: pix;
+animation-duration : 0.1s;
+animation-fill-mode:both;
+animation-iteration-count: 1;
+
+
+position: absolute;}
+
+
+.pix2 {width: 500px;
+       height: 659px;
+       background-color: #ffd28c;
+left: 50%;
+transform: translateX(-50%);
+top: 14%; 
+
+animation-delay: 3s;
+animation-name: pix;
+animation-duration : 0.1s;
+animation-fill-mode:both;
+animation-iteration-count: 1;
+
+
 position: absolute;}
 
 
